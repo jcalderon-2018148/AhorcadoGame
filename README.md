@@ -1,2 +1,2 @@
 # AhorcadoGame
-Juego en línea del ahorcado, el cual fue escrito en JavaScript con una página HTML para los componentes visuales.
+Juego en línea del ahorcado, el cual fue escrito en JavaScript con una página HTML para los componentes visuales, en donde hay un banco de palabras las cuales son elegidas al azar para que el usuario intente adivinar, al momento de presionar una tecla, ya no se puede volver a presionar y si corresponde a una letra de la palabra se pone y si no, actualiza el dibujo hasta completar la palabra o que el muñeco muera ahogado. Este proyecto fue hecho con el objetivo de desarrollar mis habilidades y familirizarme con el lenguaje de programación JavaScript.
