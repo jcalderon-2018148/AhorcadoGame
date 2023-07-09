@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Ahorcado Game</title>
+</head>
+<body>
+    
+        <div>
+            <div class="center">
+                <h1 style="font-size: 50px;">Ahorcado Game</h1>
+            </div><br><br>
+
+            <div class="contenedor">
+                <div class="imgAhorcado">
+                    <img src="img/0.png" style="width: 400px;" id="imgAhorcado">
+                </div>
+
+                <div class="espaciosSpan">
+                    <center>
+                        <div><h1 id="lose"></h1></div><br><br>
+                        <p id="espacios"></p>
+                        <br><br>
+
+                        <div id="botones">
+                            <button value="a" class="btnLetra">A</button>
+                            <button value="b" class="btnLetra">B</button>
+                            <button value="c" class="btnLetra">C</button>
+                            <button value="d" class="btnLetra">D</button>
+                            <button value="e" class="btnLetra">E</button>
+                            <button value="f" class="btnLetra">F</button>
+                            <button value="g" class="btnLetra">G</button>
+                            <button value="h" class="btnLetra">H</button>
+                            <button value="i" class="btnLetra">I</button>
+                            <button value="j" class="btnLetra">J</button>
+                            <button value="k" class="btnLetra">K</button>
+                            <button value="l" class="btnLetra">L</button>
+                            <button value="m" class="btnLetra">M</button>
+                            <button value="n" class="btnLetra">N</button><br><br>
+                            <button value="ñ" class="btnLetra">Ñ</button>
+                            <button value="o" class="btnLetra">O</button>
+                            <button value="p" class="btnLetra">P</button>
+                            <button value="q" class="btnLetra">Q</button>
+                            <button value="r" class="btnLetra">R</button>
+                            <button value="s" class="btnLetra">S</button>
+                            <button value="t" class="btnLetra">T</button>
+                            <button value="u" class="btnLetra">U</button>
+                            <button value="v" class="btnLetra">V</button>
+                            <button value="w" class="btnLetra">W</button>
+                            <button value="x" class="btnLetra">X</button>
+                            <button value="y" class="btnLetra">Y</button>
+                            <button value="z" class="btnLetra">Z</button>
+                        </div>
+
+                        <br><br>
+                        <button onclick="refresh()" class="pusheable">
+                            <span class="shadow"></span>
+                            <span class="edge"></span>
+                            <span class="front">Refrescar</span>
+                        </button>
+                    </center>
+                        
+                </div>
+            </div>
+        </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
